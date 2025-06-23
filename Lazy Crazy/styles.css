@@ -1,0 +1,47 @@
+/*
+   This CSS file contains custom styles that extend or override Tailwind CSS defaults.
+   It's primarily for gradients and specific design elements not directly available as Tailwind utility classes.
+*/
+
+/* Custom CSS variables for gradients - these are also defined inline in the HTML <style> for a single-file example */
+/* :root {
+    --gradient-purple: #9333ea;
+    --gradient-pink: #db2777;
+} */
+
+/* Gradient button styles */
+/* .gradient-button {
+    background: linear-gradient(to right, var(--gradient-purple), var(--gradient-pink));
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.gradient-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+} */
+
+/* Social button hover styles */
+/* .social-button {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.social-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+/* Custom gradient background for the body */
+/* body {
+    background: linear-gradient(135deg, #e0f2fe, #d1e5ff);
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+} */
+
+/* Basic font and box-sizing for consistency, generally handled by Tailwind's base styles */
+html {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+*, ::before, ::after {
+  box-sizing: inherit;
+}
